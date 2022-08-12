@@ -33,5 +33,5 @@ const dbLocation = {};
 // Anything that was in this location will be overwritten
 // Thus, a write operation also does an update
 dbLocation['/deck/flashcards/'] = myFlashcards;
-update (ref(db), updates)
+update (ref(db), dbLocation)
  
