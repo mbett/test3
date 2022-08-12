@@ -1,3 +1,6 @@
+// Import functions to get the database root, set a location and update the values
+//
+import { getDatabase, ref, set, update, child, get, onValue, remove } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
 
 
 let myFlashcards = [ {
