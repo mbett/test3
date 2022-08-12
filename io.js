@@ -1,3 +1,8 @@
+//For realtime
+
+import { getDatabase, ref, set, update, child, get, onValue } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
+
+
 let myFlashcards = [ {
     "question": "Name this species of bird.",
     "image" : "images/barn-owl-2550068__340.webp",
