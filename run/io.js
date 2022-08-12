@@ -34,4 +34,12 @@ const dbLocation = {};
 // Thus, a write operation also does an update
 dbLocation['/deck/flashcards/'] = myFlashcards;
 update (ref(db), dbLocation);
+
+
+// Create the reference location
+const location = ref(db, '/deck/flashcards');
  
+
+// Remove myFlashcards from the database
+remove( location );
+
