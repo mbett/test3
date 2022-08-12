@@ -37,9 +37,28 @@ update (ref(db), dbLocation);
 
 
 // Create the reference location
-const location = ref(db, '/deck/flashcards');
+// const location = ref(db, '/deck/flashcards');
  
 
 // Remove myFlashcards from the database
-remove( location );
+// remove( location );
 
+// As before,make the database point to the location where the data exists
+// If the location doesn't exist it will be created but there will be nothing to retirieve
+const location = ref(db, '/deck/flashcards');
+
+// A variable to store the JSON results in a human readable format
+let jsonString;
+
+onValue(location, function(retrieve) {
+  
+    //Get the raw JSON data back from the database
+    let queryData = retrieve.val();
+    
+    // Turn the data into a JSON String
+    jsonString = JSON.stringify(queryData);
+
+ });
+
+// Print the data out as a JSON string or otherwise manipulate it
+console.log (' JSON string:' + jsonString )
