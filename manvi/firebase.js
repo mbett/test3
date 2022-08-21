@@ -18,7 +18,7 @@
   };
 
 
-const firebaseConfig = {
+const firebaseConfigbett = {
     apiKey: "AIzaSyCmprwZYUG5w0wB8Pa3AeGxeCxQp40m3LQ",
     authDomain: "test3-24a5a.firebaseapp.com",
     projectId: "test3-24a5a",
@@ -26,6 +26,17 @@ const firebaseConfig = {
     messagingSenderId: "333990236385",
     appId: "1:333990236385:web:53a034772bf17a95fb67a0",
     measurementId: "G-XPSE5H2EHE"
+  };
+
+ // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCspDhXXbGc_9QL4O__q_Fj4uCRGo8X8no",
+    authDomain: "learning-tool-a009b.firebaseapp.com",
+    projectId: "learning-tool-a009b",
+    storageBucket: "learning-tool-a009b.appspot.com",
+    messagingSenderId: "211877966558",
+    appId: "1:211877966558:web:4e9bfd8644e8f4ceb2884f",
+    measurementId: "G-Y3S585J5NW"
   };
 
   // Initialize Firebase
