@@ -29,7 +29,7 @@ const firebaseConfigbett = {
     appId: "1:333990236385:web:53a034772bf17a95fb67a0",
     measurementId: "G-XPSE5H2EHE"
   };
-console.log('hello2);
+console.log('hello2');
  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
     apiKey: "AIzaSyCspDhXXbGc_9QL4O__q_Fj4uCRGo8X8no",
